@@ -1,0 +1,17 @@
+<div>
+    <mat-toolbar color="warning">
+        <div class="homeSpan" (click) = "goToHome()">
+            <span class="material-symbols-outlined">
+                Home
+            </span>
+            <span>
+                {{ shopName }}
+            </span>
+        </div>
+        <div class="spacer"></div>
+        <a mat-button routerLink="">About Us</a>
+        <a mat-button routerLink="">Services</a>
+        <a mat-raised-button routerLink="">Log In</a>
+    </mat-toolbar>    
+</div>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
