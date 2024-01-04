@@ -1,17 +1,11 @@
 .text{
     color: rgba(0, 0, 0, 0.805);
-    background-image: url("../../assets/jeep-white.jpg");
-    background-size: cover;
-    height: 100vh;
-    background-repeat: no-repeat;
-    position: absolute;
-    overflow-x: hidden;
 }
 p{
     text-align: center;
 }
 h1{
-    color:rgb(255, 7, 7);
+    color: #e6673e;
     text-align: center;
     font-family: "Lucida Console";
     padding-bottom: 15px;

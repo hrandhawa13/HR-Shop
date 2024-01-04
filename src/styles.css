@@ -2,10 +2,15 @@
 @import "../node_modules/@angular/material/prebuilt-themes/indigo-pink.css";
 
 body{
-    background-color: #303030;
     margin: 0;
+    width: 100vw;
+    
+    height: calc(100% - 70px);
+    background: url("../src/assets/jeep-white.jpg");
+    background-size: cover;
 }
 p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 23px;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 1.3rem;
+    color:rgb(0, 0, 0);
 }

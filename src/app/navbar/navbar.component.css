@@ -10,7 +10,14 @@
 }
 mat-toolbar {
     position: sticky;
+    background-color: #4e5a27;
+    color: white;
     position: -webkit-sticky; /* For macOS/iOS Safari */
     top: 0; /* Sets the sticky toolbar to be on top */
     z-index: 1000; /* Ensure that your app's content doesn't overlap the toolbar */
-  }
+}
+#login {
+    border-radius: 20px !important;
+    background: #e6673e;
+    color: white;
+}
